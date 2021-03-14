@@ -1,5 +1,5 @@
 # global temperatures
-file = open("C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\World Temperature 1880-2020.csv", "r")
+file = open("C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\World Temperature 1880-2020.csv", "r") #change the path to your own
 data = file.readlines()
 
 years = []
