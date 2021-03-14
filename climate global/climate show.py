@@ -10,7 +10,7 @@ import time
 import warnings
 warnings.filterwarnings('ignore')
 
-global_temp_country = pd.read_csv('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate global\\.csv files\\GlobalLandTemperaturesByCountry.csv')
+global_temp_country = pd.read_csv('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate global\\.csv files\\GlobalLandTemperaturesByCountry.csv') #change the path to your own
 global_temp_country_clear = global_temp_country[~global_temp_country['Country'].isin(
     ['Denmark', 'Antarctica', 'France', 'Europe', 'Netherlands',
      'United Kingdom', 'Africa', 'South America'])]
