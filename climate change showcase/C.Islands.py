@@ -1,5 +1,5 @@
 # C.Islands temperatures
-file_2 = open('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\Carribean Islands Temperature 1910-2019.csv', "r")
+file_2 = open('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\Carribean Islands Temperature 1910-2019.csv', "r") #change the path to your own
 data_2 = file_2.readlines()
 
 years_2 = []
