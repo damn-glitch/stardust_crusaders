@@ -1,5 +1,5 @@
 # N.America temperatures
-file_1 = open("C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\N.America Temperature 1967-2020.csv", "r")
+file_1 = open("C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change showcase\\files .csv\\N.America Temperature 1967-2020.csv", "r") #change the path to your own
 data_1 = file_1.readlines()
 
 years_1 = []
