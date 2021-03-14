@@ -66,5 +66,5 @@ def plots_stats(df, city="Hanoi"):
 
     plt.show()
 glob.glob('./*.csv')
-temp_land_cities = pd.read_csv('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change global\\Climate_Change_CIties_world-master\\GlobalLandTemperaturesByCity.csv')
+temp_land_cities = pd.read_csv('C:\\Users\\alish\\PycharmProjects\\pythonProject\\climate change global\\Climate_Change_CIties_world-master\\GlobalLandTemperaturesByCity.csv') #change the path to your own
 temp_land_cities.head()
